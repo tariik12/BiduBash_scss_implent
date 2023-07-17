@@ -1,0 +1,23 @@
+@use 'custom';
+
+// IMPORT THE COMPONENTS
+
+@use'Components/animation';
+@use'Components/button';
+@use'Components/mixins';
+@use'Components/typograpy';
+
+//IMPORT THE SECTIONS
+
+@use'sections/navbar';
+@use'sections/banner';
+@use'sections/automated';
+@use'sections/suggestion';
+@use'sections/support';
+@use'sections/services';
+@use'sections/team.scss';
+@use'sections/takeTips.css';
+
+@use'sections/contact';
+@use'sections/customerFeedback';
+@use'sections/footer';

@@ -1,0 +1,27 @@
+
+@use'../custom'as*;
+#banner{
+    img{
+        width: 509px;
+        height: 518px;
+    }
+    h2{
+        margin-top: 254px;
+    }
+  
+    p{
+        margin-top: 20px;
+        margin-bottom: 62px;
+    }
+
+    @media only screen and (max-width: 576px) {
+        h2{
+            margin-top: 30px;
+        }
+
+        p{
+            margin-top: 10px;
+            margin-bottom: 30px;
+        }
+    }
+}

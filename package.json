@@ -1,0 +1,26 @@
+{
+  "name": "busibud",
+  "version": "1.0.0",
+  "description": "The project customer services type create for my job task at Busibud",
+  "main": "index.js",
+  "scripts": {
+    "compile:sass":"sass --watch scss:assets/css"
+  },
+  "keywords": [
+    "Bootstrap",
+    "bootstrap@5.3.0",
+    "sass",
+    "job-task"
+  ],
+  "author": "Busibud.com",
+  "license": "ISC",
+  "devDependencies": {
+    "sass": "^1.63.6"
+  },
+  "dependencies": {
+    "@fortawesome/fontawesome-free": "^6.4.0",
+    "autoprefixer": "^10.4.14",
+    "bootstrap": "^5.3.0",
+    "postcss-cli": "^10.1.0"
+  }
+}
